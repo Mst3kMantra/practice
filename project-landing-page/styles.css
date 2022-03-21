@@ -15,7 +15,6 @@ a {
     display: flex;
     align-items: center;
     font-weight: bold;
-    margin-right: 125px;
 }
 
 .links {
@@ -50,6 +49,7 @@ body {
     max-width: 100%;
     height: auto;
     width: auto;
+    border-radius: 8px;
 }
 
 .hero-main-text {
@@ -121,6 +121,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .quote {
@@ -136,4 +137,49 @@ button {
     display: flex;
     margin-left: 360px;
     
+}
+
+.ad-container {
+    background-color: #3882F6;
+    display: flex;
+    padding: 25px 75px;
+    border-radius: 8px;
+    gap: 50px;
+    align-items: center;
+}
+
+.ad-button {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid #F9FAF8;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 6px 22px;
+    flex-grow: 0;
+}
+
+.ad-section {
+    background-color: #F9FAF8;
+    display: flex;
+    padding: 100px 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-text {
+    color: #F9FAF8;
+}
+
+.call {
+    margin-top: -20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: small;
+    padding: 25px;
 }
